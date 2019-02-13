@@ -49,7 +49,7 @@
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
-    "uniqCompNum": 21,
+    "uniqCompNum": 23,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png"
   },
@@ -1424,7 +1424,7 @@
             }
           },
           "_name": "header3",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bud-header-chemicals-and-minerals-1920x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#FFA0A4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#879a9f\" condition=\"overlay && bg.type !== 'color'\">   \n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container align-left\">\n        <div class=\"row justify-content-center mbr-white\">\n            <div class=\"mbr-white col-md-12\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-left pb-2\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\">Make It Beautiful</h4>\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Bud CHEMICALS AND MINERALS</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">By bringing together strengths in a number of focused group companies, Bud Chemicals and Minerals has established itself as a major operator in the manufacturing, importing, stocking and distribution of chemical products and raw materials.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" mbr-class=\"{'pt-3': !showSubtitle}\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" class=\"mbr-section-btn align-left\"><a class=\"btn-warning btn btn-lg\">Learn How</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bud-header-chemicals-and-minerals-1920x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#FFA0A4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#879a9f\" condition=\"overlay && bg.type !== 'color'\">   \n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container align-left\">\n        <div class=\"row justify-content-center mbr-white\">\n            <div class=\"mbr-white col-md-12\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-left pb-2\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\">Make It Beautiful</h4>\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Bud CHEMICALS AND MINERALS</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">By bringing together strengths in a number of focused group companies, Bud Chemicals and Minerals has established itself as a major operator in the manufacturing, importing, stocking and distribution of chemical products and raw materials.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" mbr-class=\"{'pt-3': !showSubtitle}\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" class=\"mbr-section-btn align-left\"><a class=\"btn-warning btn btn-lg\">Learn How</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rhZd3FTN0o",
           "_protectedParams": [],
           "_global": false,
@@ -1715,6 +1715,230 @@
           "_once": false,
           "_params": {},
           "_anchor": "features6-k"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "text-align": "left",
+              "line-height": "1.6"
+            },
+            ".image-element": {
+              "position": "relative",
+              "z-index": "0",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".wrapper": {
+              "padding": "2rem 1rem 1rem 1rem"
+            },
+            ".card-overlay": {
+              "display": "none",
+              "background": "@cardColor"
+            },
+            "@media (min-width: 768px)": {
+              ".image-element": {
+                "&:hover": {
+                  ".card-overlay": {
+                    "opacity": "@cardColorOpacity",
+                    "border-bottom-right-radius": "7rem"
+                  },
+                  ".wrapper": {
+                    "padding-top": "0",
+                    "border-bottom-right-radius": "7rem",
+                    ".collapsed-content": {
+                      "transition": "opacity 0.5s, max-height 3s",
+                      "opacity": "1",
+                      "max-height": "999px",
+                      "border-bottom-right-radius": "7rem",
+                      ".mbr-section-btn": {
+                        "border-bottom-right-radius": "7rem"
+                      }
+                    }
+                  }
+                },
+                "&.popup-btn": {
+                  "&:hover": {
+                    ".card-overlay": {
+                      "border-bottom-right-radius": "0 !important"
+                    },
+                    ".wrapper": {
+                      "border-bottom-right-radius": "0 !important",
+                      ".collapsed-content": {
+                        "border-bottom-right-radius": "0 !important",
+                        ".mbr-section-btn": {
+                          "border-bottom-right-radius": "0 !important"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              ".wrapper": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "background": "transparent",
+                ".collapsed-content": {
+                  "transition": "opacity 0.5s, max-height 1s",
+                  "opacity": "0",
+                  "max-height": "0px",
+                  "overflow": "hidden"
+                }
+              },
+              ".card-overlay": {
+                "transition": "all .5s",
+                "opacity": "0",
+                "display": "block"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card-title,.underline,.mbr-text,.mbr-section-btn,.mbr-section-subtitle, .mbr-section-title": {
+                "text-align": "center !important"
+              },
+              ".wrapper": {
+                "background-color": "@cardColor"
+              }
+            },
+            "@media (min-width: 992px)": {},
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features6",
+          "_customHTML": "<section class=\"features6 popup-btn-cards\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">  \n        <select name=\"cards\" title=\"Cards\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"color\" title=\"Card Hover\" name=\"cardColor\" value=\"#92b5d5\">  \n        <input type=\"range\" inline title=\"Card Hover Opacity\" name=\"cardColorOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\">  \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">New Shoes Collections</h2>\n        <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style mbr-light \" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"row main justify-content-center\">\n            <div class=\"col-lg-6 p-4\">\n                <div class=\"image-element card-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/cjp-470x269.jpg\" alt title>\n                    <div class=\"mbr-overlay card-overlay\"></div>\n                    <div class=\"wrapper\">\n                        <h3 class=\"card-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\">\n                            CJP</h3>\n                        <div class=\"collapsed-content\">\n                            <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                CJP is an importer, stockist and distributor of chemical raw materials and ingredients supplied into the food, industrial, pharmaceutical, nutraceutical and personal care industries in South Africa.\n                            </p>\n                            <div class=\"mbr-section-btn\" mbr-buttons mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobirise.com\">See Collection</a></div>\n                        </div>\n                   </div>\n               </div>\n            </div>\n            <div class=\"col-lg-6 p-4\" mbr-if=\"cards==2\">\n                <div class=\"image-element card-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/botash-2-470x269.jpg\" alt title>\n                    <div class=\"mbr-overlay card-overlay\"></div>\n                    <div class=\"wrapper\">\n                        <h3 class=\"card-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\">\n                            BOTASH</h3>\n                        <div class=\"collapsed-content\">\n                            <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                As the largest supplier of natural soda ash in Africa, Botash extracts carbonate-rich brine from beneath the surface of Sua Pan to produce light and dense soda ash for a variety of industrial uses.\n                            </p>\n                            <div class=\"mbr-section-btn\" mbr-buttons mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobirise.com\">See Collection</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhZnNMQDPo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features6-l"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "text-align": "left",
+              "line-height": "1.6"
+            },
+            ".image-element": {
+              "position": "relative",
+              "z-index": "0",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".wrapper": {
+              "padding": "2rem 1rem 1rem 1rem"
+            },
+            ".card-overlay": {
+              "display": "none",
+              "background": "@cardColor"
+            },
+            "@media (min-width: 768px)": {
+              ".image-element": {
+                "&:hover": {
+                  ".card-overlay": {
+                    "opacity": "@cardColorOpacity",
+                    "border-bottom-right-radius": "7rem"
+                  },
+                  ".wrapper": {
+                    "padding-top": "0",
+                    "border-bottom-right-radius": "7rem",
+                    ".collapsed-content": {
+                      "transition": "opacity 0.5s, max-height 3s",
+                      "opacity": "1",
+                      "max-height": "999px",
+                      "border-bottom-right-radius": "7rem",
+                      ".mbr-section-btn": {
+                        "border-bottom-right-radius": "7rem"
+                      }
+                    }
+                  }
+                },
+                "&.popup-btn": {
+                  "&:hover": {
+                    ".card-overlay": {
+                      "border-bottom-right-radius": "0 !important"
+                    },
+                    ".wrapper": {
+                      "border-bottom-right-radius": "0 !important",
+                      ".collapsed-content": {
+                        "border-bottom-right-radius": "0 !important",
+                        ".mbr-section-btn": {
+                          "border-bottom-right-radius": "0 !important"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              ".wrapper": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "background": "transparent",
+                ".collapsed-content": {
+                  "transition": "opacity 0.5s, max-height 1s",
+                  "opacity": "0",
+                  "max-height": "0px",
+                  "overflow": "hidden"
+                }
+              },
+              ".card-overlay": {
+                "transition": "all .5s",
+                "opacity": "0",
+                "display": "block"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card-title,.underline,.mbr-text,.mbr-section-btn,.mbr-section-subtitle, .mbr-section-title": {
+                "text-align": "center !important"
+              },
+              ".wrapper": {
+                "background-color": "@cardColor"
+              }
+            },
+            "@media (min-width: 992px)": {},
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features6",
+          "_customHTML": "<section class=\"features6 popup-btn-cards\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">  \n        <select name=\"cards\" title=\"Cards\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"color\" title=\"Card Hover\" name=\"cardColor\" value=\"#92b5d5\">  \n        <input type=\"range\" inline title=\"Card Hover Opacity\" name=\"cardColorOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\">  \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">New Shoes Collections</h2>\n        <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style mbr-light \" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"row main justify-content-center\">\n            <div class=\"col-lg-6 p-4\">\n                <div class=\"image-element card-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/walvis-bay-2-470x269.jpg\" alt title>\n                    <div class=\"mbr-overlay card-overlay\"></div>\n                    <div class=\"wrapper\">\n                        <h3 class=\"card-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\">\n                            WALVIS BAY SALT REFINERS</h3>\n                        <div class=\"collapsed-content\">\n                            <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                The Namibia-based company is the largest producer of solar sea salt in sub-Saharan Africa. It exports refined sea salt to neighbouring countries and also produces bulk coarse salt for the chemical industry.\n                            </p>\n                            <div class=\"mbr-section-btn\" mbr-buttons mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-success\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">See Collection</a></div>\n                        </div>\n                   </div>\n               </div>\n            </div>\n            <div class=\"col-lg-6 p-4\" mbr-if=\"cards==2\">\n                <div class=\"image-element card-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/ffs-470x269.jpg\" alt title>\n                    <div class=\"mbr-overlay card-overlay\"></div>\n                    <div class=\"wrapper\">\n                        <h3 class=\"card-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\">\n                            FFS REFINERS</h3>\n                        <div class=\"collapsed-content\">\n                            <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                FFS Refiners is the largest supplier of industrial heating fuels in South Africa. The Company markets products for a wide variety of uses, including glass making, brick making, steam raising in boilers, billet re-heating, baking, incineration, laundry, road-mix heating, lime kilns, sand and stone drying.\n                            </p>\n                            <div class=\"mbr-section-btn\" mbr-buttons mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobirise.com\">See Collection</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhZp4OlLtv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features6-m"
         }
       ]
     }
